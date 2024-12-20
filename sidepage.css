@@ -1,0 +1,43 @@
+body {
+    margin: 0%;
+}
+.mainImg {
+    width: 100%;
+    height: 804px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    object-fit: fill;
+}
+.ImgSide{
+    width: 50%;
+    height: 402px;
+    margin: 0%;
+    padding: 0%;
+    display: inline;
+}
+.backtohome {
+    padding: 20px 40px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background-color:white;
+    transition: color 1s;
+}
+button:hover {
+    color: brown;
+}
+h1,h2 {
+    display: inline-flex;
+    width: 100%;
+}
+.nextpage {
+    position: absolute;
+    right: 0px;
+}
+.title {
+    width: 70%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
